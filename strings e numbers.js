@@ -28,3 +28,103 @@ let myArray = phrase.split(" ")
 let phraseWithUnderscore = myArray.join("_")
 console.log(phraseWithUnderscore)
 */
+ 
+// Operadores de Comparação
+
+/*
+let one = 1
+let two = 2
+
+
+console.log(one != two)
+console.log(one != 1)
+console.log(one != "1")
+
+console.log(two == 1)
+console.log(one == "1")
+
+console.log(one ==="1")
+console.log(one === 1 )
+
+console.log(two !== "2")
+console.log(two !== 2)
+
+// Maior que >
+console.log(one >= two)
+
+// >= Maior igual a
+console.log(one >= 1)
+console.log(two >= 1)
+ 
+// Menor que <
+console.log(one < two)
+
+// Menor igual a <=
+console.log(one <= two)
+console.log(one <= 1)
+console.log(one <= 0)
+*/
+
+/*
+// Operadores de Atribuição (Assignment)
+
+let x
+
+// assigment (recebe 1)
+x = 1
+
+// addition assignment
+x += 2
+
+// subtraction assignment
+x -= 1
+
+// multiplication assignment
+x *= 2
+
+// dicision assignment 
+x /= 2
+
+// remainder, exponetiation
+x %= 2
+x **= 2
+
+console.log(x)
+*/
+
+/*
+// Operadores Lógicos
+
+let pao = true
+let queijo = true
+
+// AND &&
+
+console.log(pao && queijo)
+
+// OR ||  
+
+console.log( pao || queijo)
+
+// NOT !
+
+console.log(!queijo)
+*/
+
+/*
+// Operador Condicional (Ternário)
+
+// Café da manhã top
+let pao = true
+let queijo = true
+
+const niceBreakfast = pao && queijo ? 'Café top' : 'café ruim'
+
+console.log(niceBreakfast)
+
+// Maior de 18
+
+let age = 16
+const canDrive = age >= 18 ? 'can drive' : "can't drive"
+console.log(canDrive)
+*/
